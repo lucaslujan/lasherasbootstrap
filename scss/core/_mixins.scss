@@ -128,7 +128,7 @@
 // Make button
 @mixin make-button ($name, $color) {
   .btn-#{$name} {
-    background-color: $color !important;
+    background-color: $color1 !important;
     color: set-notification-text-color($color) !important;
     &:hover {
       background-color: lighten($color, 5%);
